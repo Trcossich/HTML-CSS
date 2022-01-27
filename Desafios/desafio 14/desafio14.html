@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Escolares</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+
+        .destaque{
+            background-color: gray;
+            color: white;
+        }
+
+        .destaque2{
+            background-color: gray;
+            color: white;
+            text-align: left;
+        }
+
+        .destaque3{
+            background-color: gray;
+            color: white;
+            text-align: right;
+        }
+
+        .texto{
+            text-align: right;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+        Notas Escolares
+        </caption>
+        <thead>
+            <tr>
+            <th rowspan="2" scope="row" class="destaque">Área</th>
+            <th rowspan="2" scope="row" class="destaque">Disciplinas</th>
+            <th colspan="2" scope="col" class="destaque">Notas</th>
+            <th rowspan="2" scope="row" class="destaque">Média</th>
+            <tr>
+                <th class="destaque">Nota 1</th>
+                <th class="destaque">Nota 2</th>
+            </tr>
+
+            </tr>
+
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="colgroup" class="destaque2">Total</th>
+                <td class="texto">0.0</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td colspan="4" scope="colgroup" class="destaque2">Média de Exatas</td>
+                <td class="destaque3">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td colspan="4" scope="colgroup" class="destaque2">Média de Humanas</td>
+                <td class="destaque3">0.0</td>
+            </tr>
+        </tbody>
+
+    </table>
+    
+</body>
+</html>
